@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.navbar{
+    background-color: #271441ec;
+            }
+          /* Carousel styling */
+          #introCarousel,
+          .carousel-inner,
+          .carousel-item,
+          .carousel-item.active {
+            height: 100vh;
+          }
+
+          .carousel-item:nth-child(1) {
+            background-image: url('../../../assets/images/firts-img.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+          }
+
+          .carousel-item:nth-child(2) {
+            background-image: url('../../../assets/images/second-img.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+          }
+
+          .carousel-item:nth-child(3) {
+            background-image: url('../../../assets/images/three-img.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+          }
